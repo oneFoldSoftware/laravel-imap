@@ -26,9 +26,15 @@
         "ext-mbstring": "*",
         "ext-iconv": "*",
         "ext-fileinfo": "*",
-        "webklex/php-imap": "^2.1",
+        "webklex/php-imap": "dev-master",
         "laravel/framework": ">=5.0.0"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/onefoldsoftware/php-imap.git"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Webklex\\IMAP\\": "src"
